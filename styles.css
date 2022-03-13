@@ -1,0 +1,80 @@
+body {
+    display: block;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    margin: 70px
+}
+
+.header {
+    display: flex;
+}
+
+
+.me {
+    /* background-color: blue; */
+    flex-shrink: 0;
+    margin-right: 3%;
+    width: 100px;
+    height: 100px;
+    border-radius:  50%;  
+}
+
+.headerMenu {
+    align-self: center;
+    width: 100%;
+}
+
+.name {
+    /* background-color: blueviolet; */
+    color: black;
+    display: inline-block;
+    font-size: 1.85rem;
+    
+    margin-bottom: 3%;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* text-decoration: underline; */
+}
+
+.navbar {
+    /* background-color: aquamarine; */
+    flex-wrap: wrap;
+
+}
+
+.navItem {
+    margin-right: 2%;
+    color: black;
+    font-size: 1.125rem;
+    margin-top: 4%;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .0625rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navBar a {
+    color: dimgray;
+}
+.navItem:hover {
+    color:  rgb(95, 120, 165);
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    background-color: rgb(243, 243, 245);
+    border-radius: 5px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    padding: 40px;
+}
+
+.intro h1 {
+    font-weight: 600;
+    line-height: 120%;
+}
+
