@@ -9,13 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
 
-    <title>Untitled</title>
+    <title>My Portfolio</title>
 </head>
 
 <body>
 
+    <!-- Header Nav start -->
     <header class="header">
 
         <div class="me">
@@ -29,14 +30,16 @@
             <a class="name" href="#">James Gibson</a>
             <nav class="navBar">
                 | <a href="#" class="navItem">About Me</a>|
-                <a href="#" class="navItem">Resume</a>|
-                <a href="#" class="navItem">Projects</a>|
-                <a href="#" class="navItem">Contact</a>
+                <a href="#resumeNav" class="navItem">Resume</a>|
+                <a href="#projectsNav" class="navItem">Projects</a>|
+                <a href="#contactNav" class="navItem">Contact</a>
             </nav>
         </div>
 
     </header>
+    <!-- Header Nav end -->
 
+    <!-- About Me start -->
     <section>
         <div class="intro">
             <h1>Hello, I'm James.</h1>
@@ -50,19 +53,139 @@
                 at illum eos similique vitae rem voluptas iure dicta provident blanditiis minima hic consequuntur porro
                 quam.
             </p>
-            <p>
-                Get to know me on
-                <a href="#">Github</a>,
-                <a href="#">LinkedIN</a>, or
-                <a href="#">Twitter</a>.
-            </p>
-        </div>
-        <div>
-            <h1 class="resume">Resume</h1>
-            <section>
-                <div class="resumeContent">
 
-                </div>
-            </section>
         </div>
     </section>
+    <!-- About Me end -->
+
+    <!-- Resume start -->
+    <main class="resumeContent">
+        <a id="resumeNav"></a>
+        <h1>Resume</h1>
+
+        <article class="resume">
+            <section class="grid-area work">
+                <p>
+                    <h2>Work</h2>
+                    <hr>
+                </p>
+                <ul>
+                    <li>Job Title</li>
+                    <li>Company</li>
+                    <li>01/01/2001 - 02/02/2002</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere veritatis amet ipsum sapiente
+                        minus unde porro laboriosam, corporis vero quisquam repellendus eos dolor. Dignissimos
+                        reiciendis temporibus a aut hic esse?</li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>Job Title</li>
+                    <li>Company</li>
+                    <li>01/01/2001 - 02/02/2002</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere veritatis amet ipsum sapiente
+                        minus unde porro laboriosam, corporis vero quisquam repellendus eos dolor. Dignissimos
+                        reiciendis temporibus a aut hic esse?</li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>Job Title</li>
+                    <li>Company</li>
+                    <li>01/01/2001 - 02/02/2002</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere veritatis amet ipsum sapiente
+                        minus unde porro laboriosam, corporis vero quisquam repellendus eos dolor. Dignissimos
+                        reiciendis temporibus a aut hic esse?</li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>Job Title</li>
+                    <li>Company</li>
+                    <li>01/01/2001 - 02/02/2002</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere veritatis amet ipsum sapiente
+                        minus unde porro laboriosam, corporis vero quisquam repellendus eos dolor. Dignissimos
+                        reiciendis temporibus a aut hic esse?</li>
+                </ul>
+            </section>
+            <section class="grid-area summary">
+                <p>
+                    <h2>Summary</h2>
+                    <hr>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat dolore unde consequatur nostrum
+                    quod tenetur. Reiciendis sit omnis harum rem? Officia, ipsum aperiam nemo modi aut vel dolores
+                    voluptatibus reprehenderit.
+                </p>
+            </section>
+            <section class="grid-area education">
+                <p>
+                    <h2>Education</h2>
+                    <hr>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero quis voluptate saepe
+                    numquam, alias molestias in totam inventore ratione suscipit fugit atque deleniti, dolorem, dolore
+                    nihil. Beatae, sint ipsa.
+                </p>
+            </section>
+            <section class="grid-area skills">
+                <p>
+                    <h2>Skills</h2>
+                    <hr>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam doloribus, nemo, maiores sed rem
+                    maxime aspernatur velit unde culpa fugiat officiis atque possimus quia. Provident perspiciatis
+                    officia beatae quo quas!
+                </p>
+            </section>
+        </article>
+    </main>
+    <!-- Resume end -->
+
+    <!-- Projects start -->
+    <article class="projects">
+        <a id="projectsNav"></a>
+        <h1>Projects</h1>
+    </article>
+
+    <!-- Projects end -->
+
+    <!-- Contact Me start -->
+    <article class="contact">
+        <a id="contactNav"></a>
+        <h1>Contact Me</h1>
+        <p>
+            If you would like to contact me about a job or project opportunity,
+            feel free to contact me on the form below.
+        </p>
+
+        <div class="contactForm">
+            <form action="#">
+                <div>
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" />
+
+
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" />
+
+                </div>
+
+                <div>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" />
+                </div>
+
+                <div>
+                    <label for="comments">Message</label>
+                    <textarea cols="46" rows="3" name="comments"></textarea>
+                </div>
+
+                <div>
+                    <input class="btn btn-submit" type="submit" value="Submit" />
+
+                </div>
+
+
+            </form>
+        </div>
+    </article>
+
+    <!-- Contact Me end -->
+</body>
+</html>

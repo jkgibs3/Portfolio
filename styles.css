@@ -5,6 +5,8 @@ body {
     margin: 70px
 }
 
+/* Header Nav */
+
 .header {
     display: flex;
 }
@@ -63,9 +65,10 @@ a {
     color:  rgb(95, 120, 165);
 }
 
+/* About Me */
+
 .intro {
-    display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     margin-top: 5%;
     background-color: rgb(243, 243, 245);
     border-radius: 5px;
@@ -78,3 +81,81 @@ a {
     line-height: 120%;
 }
 
+/* Resume */
+
+.resumeContent {
+    margin-top: 5%;
+    background-color: rgb(243, 243, 245);
+    border-radius: 5px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    padding: 40px;
+} 
+
+.resume {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    grid-template-areas: 
+    "work summary"
+    "work education"
+    "work skills";
+}
+
+
+.grid-area {
+    padding: 1em 1em 1em 1em;
+    /* border: 1px black solid; */
+}
+
+.work {
+    grid-area: work;
+}
+
+.summary {
+    grid-area: summary;
+}
+
+.education {
+    grid-area: education;
+}
+
+.skills {
+    grid-area: skills;
+}
+
+
+
+/* Projects */
+
+.projects {
+    flex-wrap: wrap; 
+    margin-top: 5%;
+    background-color: rgb(243, 243, 245);
+    border-radius: 5px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    padding: 40px;
+}
+
+
+/* Contact Me */
+
+.contact {
+    flex-wrap: wrap; 
+    margin-top: 5%;
+    background-color: rgb(243, 243, 245);
+    border-radius: 5px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    padding: 40px;
+}
+
+label {
+    display: block;
+}
+
+.resumeContent h1,
+.projects h1,
+.contact h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
