@@ -13,7 +13,7 @@ body {
 
 
 .me {
-    /* background-color: blue; */
+    
     flex-shrink: 0;
     margin-right: 3%;
     width: 100px;
@@ -27,7 +27,7 @@ body {
 }
 
 .name {
-    /* background-color: blueviolet; */
+    
     color: black;
     display: inline-block;
     font-size: 1.85rem;
@@ -35,11 +35,11 @@ body {
     margin-bottom: 3%;
     text-transform: uppercase;
     font-weight: 600;
-    /* text-decoration: underline; */
+    
 }
 
 .navbar {
-    /* background-color: aquamarine; */
+    
     flex-wrap: wrap;
 
 }
@@ -91,6 +91,46 @@ a {
     padding: 40px;
 } 
 
+#education {
+    list-style: none;
+    padding: 0;
+}
+
+#skills {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.education li:nth-child(1) {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.education li:nth-child(2) {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.work ul {
+    list-style: none;
+    padding-left: 0;
+    list-style-position: inside;
+    
+}
+
+.work li {
+    margin-bottom: 5px;
+}
+
+.work li:nth-child(1) {
+    font-weight: bold;
+}
+
+.work li:nth-child(3) {
+    font-style: italic;
+}
+
+
 .resume {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -141,16 +181,51 @@ a {
 /* Contact Me */
 
 .contact {
-    flex-wrap: wrap; 
+    /* flex-wrap: wrap; */
     margin-top: 5%;
+    margin-bottom: 5%;
     background-color: rgb(243, 243, 245);
     border-radius: 5px;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     padding: 40px;
 }
 
-label {
-    display: block;
+.contactForm label {
+    font-weight: bold;
+}
+
+
+input[type=text], [type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: dimgray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: rgb(95, 120, 165);
+}
+
+.contactForm {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.contactForm, .contact p {
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 .resumeContent h1,
